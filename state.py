@@ -11,7 +11,7 @@ class State:
     def __str__(self):
         return self.__class__.__name__
 
-    def alarm(self):
+    def alarm(self, timeout):
         raise NotImplementedError
 
 
